@@ -19,6 +19,35 @@
 <img height="450" src="./assets/screenshot_03.png"/></h1>
 </details>
 
+## Installation
+
+<details><summary>lazy.nvim</summary>
+
+```lua
+{
+    "dybdeskarphet/gruvbox-minimal.nvim"
+    config = {
+        vim.cmd.colorscheme("gruvbox-minimal")
+    }
+}
+```
+
+</details>
+
+<details><summary>mini.deps</summary>
+
+```lua
+MiniDeps.add({
+    source = "dybdeskarphet/gruvbox-minimal.nvim"
+})
+MiniDeps.now({
+    -- Add the relevant configuration options if you want to
+    vim.cmd.colorscheme("gruvbox-minimal")
+})
+```
+
+</details>
+
 ## Configuration
 
 The default configuration settings are as follows:
@@ -28,23 +57,10 @@ require("gruvbox-minimal").setup({
 	transparent = false, -- Sets all the major background values to 'none'
 	italic_comments = false, -- Italic comments
 })
-```
 
-## Usage
-
-```lua
+-- Activates the colorscheme
 vim.cmd.colorscheme('gruvbox-minimal')
 ```
-
-## Configuration
-
-Two config options are provided:
-
-- `g:gruvbox_minimal_dim_comments` (default: `false`). When true, comments are dimmed instead of being highlighteed bright yellow.
-- `g:gruvbox_minimal_transparent_bg` (default: `false`). When true, all the background values are set to `none`.
-- `g:gruvbox_minimal_floatborder` (default: `false`).
-  When true, floating window borders have a foreground colour and background colour is the same as `Normal`.
-  When false, floating window borders have no foreground colour and background colour is the same as popup menus.
 
 ## Themed plugins
 
