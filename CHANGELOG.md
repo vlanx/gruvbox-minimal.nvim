@@ -1,6 +1,11 @@
 ## [unreleased]
 
+### 🚀 Features
+
+- Add high/low contrast and dark/light theme options
+
 ### ⚙️ Miscellaneous Tasks
 
 - *(release)* Rename the release action
+- *(scripts)* Add alpha simulator script
 ## [0.1.0] - 2025-12-24
