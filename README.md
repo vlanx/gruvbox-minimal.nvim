@@ -59,6 +59,8 @@ The default configuration settings are as follows:
 require("gruvbox-minimal").setup({
 	transparent = false, -- Sets all the major background values to 'none'
 	italic_comments = false, -- Italic comments
+	contrast = "low", -- Available values: "high", "low"
+	theme = "dark", -- Available values: "dark", "light"
 })
 
 -- Activates the colorscheme
