@@ -10,7 +10,7 @@ function M.setup(c, config)
 		FloatTitle = { fg = c.base_10, bg = config.transparent and "none" or c.base_02 },
 		FloatFooter = { link = "FloatTitle" },
 		SignColumn = { link = "Normal" },
-		IncSearch = { bg = c.base_03 },
+		IncSearch = { bg = c.base_08, fg = c.base_00 },
 		Substitute = { bg = c.base_06, fg = c.base_15 },
 		LineNr = { fg = c.base_06 },
 		LineNrAbove = { fg = c.base_06 },
@@ -22,7 +22,7 @@ function M.setup(c, config)
 		MoreMsg = { fg = c.blue },
 		Question = { fg = c.cyan },
 		QuickFixLine = { fg = c.cyan },
-		Search = { bg = c.base_06 },
+		Search = { bg = c.base_10, fg = c.base_00 },
 		SnippetTabstop = { fg = c.base_15, bg = c.base_01, underline = true },
 		SpecialKey = { fg = c.cyan },
 
