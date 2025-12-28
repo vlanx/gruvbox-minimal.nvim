@@ -1,3 +1,8 @@
+## [unreleased]
+
+### 🐛 Bug Fixes
+
+- *(groups)* Fix search groups not being visible
 ## [0.2.0] - 2025-12-26
 
 ### 🚀 Features
