@@ -9,6 +9,10 @@
 ### 🐛 Bug Fixes
 
 - *(typescript)* Don't highlight const variables as constant
+
+### ⚙️ Miscellaneous Tasks
+
+- *(release)* Add CHANGELOG link to release body text
 ## [0.3.1] - 2026-01-01
 
 ### 🚜 Refactor
